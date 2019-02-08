@@ -1,0 +1,33 @@
+#conteneur
+{
+	height:100%;
+	width:100%;
+	flex-direction:row;
+	display:flex;
+}
+
+.element1
+{
+	background-color:black;
+	color:white;
+	height:100%;
+	width:30%;
+	
+}
+
+body, html
+{
+	height:100%;
+	margin:0px;
+	
+}
+
+
+.element2
+{
+	background-color:grey;
+	color:black;
+	width:80%;
+	height:100%;
+	
+}

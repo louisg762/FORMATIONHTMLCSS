@@ -1,0 +1,76 @@
+@keyframes anim
+{
+	0%{width: 25px;border-radius:25%
+	}
+	50%{width: 60px;border-radius:50%}
+	100%{width:100px;border-radius:25%}
+}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tete {height: 100px; width: 100px; background-color: pink; border-radius: 100px;
+transform: translate(200px, 0px)}
+
+#corp {height: 150px; width: 50px; background-color: green;
+transform: translate(224px, -5px);
+display: inline-block;
+border-radius: 10px;}
+
+#brasd {height: 100px; width: 25px; background-color: green;
+transform: translate(135px, -45px) rotate(25deg);
+display: inline-block;
+border-radius: 25px;
+animation-name:anim;
+animation-delay:0s;
+animation-duration:5s;
+
+}
+
+#brasg {height: 100px; width: 25px; background-color: green;
+transform: translate(200px, -45px) rotate(150deg);
+display: inline-block;
+border-radius: 25px;}
+
+#jambed {height: 150px; width: 35px; background-color: black;
+transform: translate(80px, 120px) rotate(10deg);
+display: inline-block;
+border-radius: 25px;}
+
+#jambeg {height: 150px; width: 35px; background-color: black;
+transform: translate(120px, 120px) rotate(170deg);
+display: inline-block;
+border-radius: 25px;}
+
+ #shoesd {height: 15px; width: 50px; background-color: red;
+transform: translate(-25px, 120px);
+display: inline-block;
+border-radius: 25px;
+background-color:white;}
+
+ #shoesg {height: 15px; width: 50px; background-color: red;
+transform: translate(40px, 120px);
+display: inline-block;
+border-radius: 25px;
+background-color:white;}
+
+
+
+body
+{
+	background-color:lightblue;
+}
